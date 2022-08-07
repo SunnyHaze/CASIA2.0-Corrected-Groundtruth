@@ -3,6 +3,8 @@
 This repository includes resources below:
 - **CASIA2.0** Image Tampering Detection Evaluation Dataset
 - It's ground-truth which **repaired some of Noisy label-masks.**
+
+> Owner of this repository is a colledge student now, if my tiny contribution helps you, please give me a star⭐ and explain the problem to other scientific researchers, which can help me a lot. Thanks! 
 ## Intro
 CASIA 2.0 is a dataset for Image Tampering Detection Evaluation, which was published by Jing Dong et al in 2013. However, this dataset is **lack of the groundtruth images** comparing to other Image Tampering Detection Datasets.
 
