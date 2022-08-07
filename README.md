@@ -39,6 +39,7 @@ Files in the ZIP are organized as follows:
 
 You can visit [Nam Thanh Pham's CASIA 2.0 Groundtruth Github repo](https://github.com/namtpham/casia2groundtruth) to check their original Groundtruth. 
 
+______
 
 If you use the groundtruth dataset for **a scientific publication,** please cite the following papers:
 
