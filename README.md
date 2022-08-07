@@ -1,4 +1,5 @@
 # Noisy Labels repairing in dataset CASIA v2.0 groundtruth
+ ![GitHub repo size](https://img.shields.io/github/repo-size/SunnyHaze/CASIA2.0-Corrected-Groundtruth?logo=hack%20the%20box)  [![Ask Me Anything !](https://img.shields.io/badge/Official%20-No-1abc9c.svg)](https://GitHub.com/Sunnyhaze) ![visitors](https://visitor-badge.glitch.me/badge?page_id=Sunnyhaze.CASIA2.0-Corrected-Groundtruth)
 
 This repository includes resources below:
 - **CASIA2.0** Image Tampering Detection Evaluation Dataset
