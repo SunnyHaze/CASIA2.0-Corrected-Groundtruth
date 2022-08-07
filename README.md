@@ -2,7 +2,7 @@
 
 This repository includes resources below:
 - **CASIA2.0** Image Tampering Detection Evaluation Dataset
-- It's ground-truth which **repaired some of Noisy label-masks.**
+- Ground-truth of CASIA2.0, which **repaired some of Noisy label-masks.**
 
 > Owner of this repository is a colledge student now, if my tiny contribution helps you, please give me a star⭐ and explain the problem to other scientific researchers, which can help me a lot. Thanks! 
 ## Intro
