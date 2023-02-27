@@ -49,7 +49,7 @@ ______
 
 If you use the groundtruth dataset for **a scientific publication,** please cite the following papers:
 
-* CASIA dataset
+* Official CASIA dataset
 
         @inproceedings{Dong2013,
         doi = {10.1109/chinasip.2013.6625374},
@@ -63,7 +63,7 @@ If you use the groundtruth dataset for **a scientific publication,** please cite
         }
 
 
- * CASIA groundtruth dataset 
+ * Official CASIA groundtruth dataset 
  
         @article{pham2019hybrid,
         title={Hybrid Image-Retrieval Method for Image-Splicing Validation},
