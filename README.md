@@ -9,7 +9,7 @@ This repository includes resources below:
 ## Intro
 CASIA 2.0 is a dataset for Image Tampering Detection Evaluation, which was published by Jing Dong et al in 2013. However, this dataset is **lack of the groundtruth images** comparing to other Image Tampering Detection Datasets.
 
-To soleving the problem, Nam Thanh Pham et al. generated the corresponding Groundtruth in a 2019 paper contributed it to Github. This publicly available groundtruth has gained wide distribution in data science platforms such as kaggle
+To soleving the problem, Nam Thanh Pham et al. generated the corresponding Groundtruth in a 2019 paper contributed it to Github. This publicly available groundtruth has gained wide distribution in data science platforms such as kaggle([Link](https://www.kaggle.com/datasets/divg07/casia-20-image-tampering-detection-dataset)).
 > Nam Thanh Pham et al. also corrected some mistakes in naming the files of the origianl CAISA 2.0 Dataset.
 ## Noisy Labels in wide spread groundtruth
 However, when we doing experiments base on CASIA 2.0 datasets, we found that there are some<font color ="red"><b> serious noises</b></font> in groundtruth such as :
@@ -18,7 +18,7 @@ However, when we doing experiments base on CASIA 2.0 datasets, we found that the
 - Mask boundary mismatch
 
 Here are some Examples:
-- Rotation mismatch example on Kaggle platform:
+- Rotation mismatch example on [Kaggle platform](https://www.kaggle.com/datasets/divg07/casia-20-image-tampering-detection-dataset):
   - ![](images/kaggle_example.jpg)
 - Another Rotation mismatch example:
   - ![](images/rotation_mismatch.png)
