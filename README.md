@@ -1,18 +1,25 @@
 # Noisy Labels repairing in dataset CASIA v2.0 groundtruth
  ![GitHub repo size](https://img.shields.io/github/repo-size/SunnyHaze/CASIA2.0-Corrected-Groundtruth?logo=hack%20the%20box)  [![Ask Me Anything !](https://img.shields.io/badge/Official%20-No-1abc9c.svg)](https://GitHub.com/Sunnyhaze) ![visitors](https://visitor-badge.glitch.me/badge?page_id=Sunnyhaze.CASIA2.0-Corrected-Groundtruth)
 
-This repository includes resources below:
+This repository includes the resources below:
 - **CASIA2.0** Image Tampering Detection Evaluation Dataset
 - Ground-truth of CASIA2.0, which **repaired some of Noisy label-masks.**
 
-> Owner of this repository is a colledge student now, if my tiny contribution helps you, please give me a star⭐ and explain the problem to other scientific researchers, which can help me a lot. Thanks! 
+> The owner of this repository is a college student now, if my tiny contribution helps you, please give me a star⭐ and explain the problem to other scientific researchers, which can help me a lot. Thanks!
+
+
+##  News 
+- [2024/03/19] We have received numerous requests concerning datasets such as COVERAGE, primarily due to **resolution discrepancies between images and masks**. Consequently, we have uploaded several IML datasets that have been meticulously corrected to the [IML-Dataset-Corrections](https://github.com/SunnyHaze/IML-Dataset-Corrections) repository for the convenience of the research community.
+  - [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Sunnyhaze&repo=IML-Dataset-Corrections)](https://github.com/SunnyHaze/IML-Dataset-Corrections)
+
+  
 ## Intro
 CASIA 2.0 is a dataset for Image Tampering Detection Evaluation, which was published by Jing Dong et al in 2013. However, this dataset is **lack of the groundtruth images** comparing to other Image Tampering Detection Datasets.
 
-To soleving the problem, Nam Thanh Pham et al. generated the corresponding Groundtruth in a 2019 paper contributed it to Github. This publicly available groundtruth has gained wide distribution in data science platforms such as kaggle([Link](https://www.kaggle.com/datasets/divg07/casia-20-image-tampering-detection-dataset)).
-> Nam Thanh Pham et al. also corrected some mistakes in naming the files of the origianl CAISA 2.0 Dataset.
-## Noisy Labels in wide spread groundtruth
-However, when we doing experiments base on CASIA 2.0 datasets, we found that there are some<font color ="red"><b> serious noises</b></font> in groundtruth such as :
+To solve the problem, Nam Thanh Pham et al. generated the corresponding Groundtruth in a 2019 paper contributed it to Github. This publicly available groundtruth has gained wide distribution in data science platforms such as Kaggle ([Link](https://www.kaggle.com/datasets/divg07/casia-20-image-tampering-detection-dataset)).
+> Nam Thanh Pham et al. also corrected some mistakes in naming the files of the original CAISA 2.0 Dataset.
+## Noisy Labels in widespread groundtruth
+However, when we are doing experiments based on CASIA 2.0 datasets, we found that there are some<font color ="red"><b> serious noises</b></font> in groundtruth such as :
 - Rotation mismatch
 - Resolution mismatch
 - Mask boundary mismatch
@@ -25,14 +32,14 @@ Here are some Examples:
 - Resolution mismatch example:
   - ![](images/resolution_mismatch.png)
 
-Because `resize()` is generally used in pre-processing, these dozens of problematic images are difficult to be detected from more than 5000 tampered images.
+Because `resize()` is generally used in pre-processing, these dozens of problematic images are difficult to detect from more than 5000 tampered images.
 
-What's more, this dataset is widly use in the field of Image Tampering Detection to eavaluate model performance, and it's hard to find a second groundtruth dataset on the Internet, we have reason to believe that many papers have adopted this groundtruth as the validation of the CASIA 2.0 dataset.
+What's more, this dataset is widely used in the field of Image Tampering Detection to evaluate model performance, and it's hard to find a second groundtruth dataset on the Internet, we have reason to believe that many papers have adopted this groundtruth as the validation of the CASIA 2.0 dataset.
 
 ## Fixed groundtruth downloading
 Although these images can hardly have a significant impact on the training results of a dataset containing more than 5,000 images, we thought it would be useful to point out this issue for researchers to know. 
 
-And here we place the Google Drive link of [corrected CASIA 2.0 dataset and it's ground truth ZIP file](https://drive.google.com/file/d/1JN93ts7VxJ4bbJL9TlE9uxM3ZeYuCN9M/view?usp=sharing), you can **DOWNLOAD** it through the link above.
+And here we place the Google Drive link of [corrected CASIA 2.0 dataset and its ground truth ZIP file](https://drive.google.com/file/d/1JN93ts7VxJ4bbJL9TlE9uxM3ZeYuCN9M/view?usp=sharing), you can **DOWNLOAD** it through the link above.
 
 Files in the ZIP are organized as follows:
 ```bash
